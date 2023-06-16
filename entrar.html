@@ -11,16 +11,19 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <title>La Casa del Padel</title>
-    <link rel="stylesheet" href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\estilo.css">
-   <script></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script></script>
 </head>
 
-<body>
+
     <header>
         <nav class="navbar bg-dark" data-bs-theme="dark" class="navegador">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\index.html">Casa de Padel</a>
+                    <a class="navbar-brand"
+                        href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\index.html">Casa de
+                        Padel</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -33,18 +36,16 @@
                                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\entrar.html">Entrar</a>
+                                <a class="nav-link" href="entrar.html">Entrar</a>
                             </li>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"
-                                    href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\contacto.html">Contacto</a>
+                                <a class="nav-link" href="contacto.html">Contacto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"
-                                    href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\carritodecompra.html">Especificaciones Tecnicas</a>
+                                <a class="nav-link" href="CaracteristicasTecnicas.html">Especificaciones Tecnicas</a>
                             </li>
-                            
+
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -52,23 +53,19 @@
                                     Palas de Padel
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item"
-                                            href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\adidas.html">Adidas</a>
+                                    <li><a class="dropdown-item" href="adidas.html">Adidas</a>
                                     </li>
-                                    <li><a class="dropdown-item"
-                                            href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\bullpadel.html">Bullpadel</a>
+                                    <li><a class="dropdown-item" href="bullpadel.html">Bullpadel</a>
                                     </li>
-                                    <li><a class="dropdown-item"
-                                            href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\babolat.html">Babolat</a>
+                                    <li><a class="dropdown-item" href="babolat.html">Babolat</a>
                                     </li>
-                                    <li><a class="dropdown-item"
-                                            href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\nox.html">Nox</a>
+                                    <li><a class="dropdown-item" href="nox.html">Nox</a>
                                     </li>
                                 </ul>
                             </li>
 
                         </ul>
-                     
+
                     </div>
                 </div>
             </nav>
@@ -76,74 +73,78 @@
 
     </header>
 
-       
+
 
     <section>
 
-     <article>
-  
-    <div class="formulario">
-        <h2> Registrate </h2>
-        <form action="#">
-            <input type="text" placeholder="Usuario"  id="user" required><br>
-            <input type="text" placeholder="Nombre"  id="name" required><br>
-            <input type="text" placeholder="Apellido" id="lname" required ><br>
-            <input type="password" placeholder="Contraseña" id="pass" required ><br>
-            <button onclick="registro()">Registrarse</button>
-        </form>
-    </div>
-</br>
-<article>
-    <label>Fecha nacimiento:</label><input type='Date' value='' id="fechanaci" required ></div>
-    <form onsubmit = "return validaedad(document.getElementById('fechanaci').value)"></form>
-    <button><a href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\index.html">Entrar</a></button>
-  </article>
+        <article>
 
-<form action="validar.php" method="post">
-
-    <div class="login-wrap">
-    
-    
-        <div class="login-html">
-    
-    
-    
-            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Inciar Sesión</label>
-    
-            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
-            <div class="login-form">
-    
-                <div class="sign-in-htm">
-                    <div class="group">
-                        <input type="text" placeholder="&#128272; Usuario" name="usuario" id="usuario" class="label" >
-                    </div>
-                    <div class="group">
-                        <input type="password" placeholder="&#128272; Contraseña" name="clave"  id="clave" class="label" >
-                    </div>
-    
-    
-                        <div class="group">
-                        <input type="submit" class="button" id="ingresar" value="Ingresar">
-                    </div>
-    
-                </div>
+            <div class="formulario">
+                <h2> Registrate </h2>
+                <form action="#">
+                    <input type="text" placeholder="Usuario" id="user" required><br>
+                    <input type="text" placeholder="Nombre" id="name" required><br>
+                    <input type="text" placeholder="Apellido" id="lname" required><br>
+                    <input type="password" placeholder="Contraseña" id="pass" required><br>
+                    <button onclick="registro()">Registrarse</button>
+                </form>
             </div>
-    
-        </div>
-    
-</article>
+            </br>
+            <article>
+                <label>Fecha nacimiento:</label><input type='Date' value='' id="fechanaci" required></div>
+                <form onsubmit="return validaedad(document.getElementById('fechanaci').value)"></form>
+                <button><a href="index.html">Entrar</a></button>
+            </article>
 
-</section>
+            <form action="validar.php" method="post">
 
-<footer>
-    <nav aria-label="Page navigation example">
-        <ul class="pagination">
-          <li class="page-item"><a class="page-link" href="https://es-la.facebook.com/">Facebook</a></li>
-          <li class="page-item"><a class="page-link" href="https://www.instagram.com/">Instagram</a></li>
-          <li class="page-item"><a class="page-link" href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\contacto.html">Contactanos</a></li>
-          <li class="page-item"><a class="page-link" href="C:\Users\matiu\OneDrive\Documentos\Programacion\proyecto final\adidas.html">Palas</a></li>
-          <li class="page-item"><a class="page-link" href="#">Inicio</a></li>
-        </ul>
-      </nav>
+                <div class="login-wrap">
 
-</footer>
+
+                    <div class="login-html">
+
+
+
+                        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1"
+                            class="tab">Inciar Sesión</label>
+
+                        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2"
+                            class="tab"></label>
+                        <div class="login-form">
+
+                            <div class="sign-in-htm">
+                                <div class="group">
+                                    <input type="text" placeholder="&#128272; Usuario" name="usuario" id="usuario"
+                                        class="label">
+                                </div>
+                                <div class="group">
+                                    <input type="password" placeholder="&#128272; Contraseña" name="clave" id="clave"
+                                        class="label">
+                                </div>
+
+
+                                <div class="group">
+                                    <input type="submit" class="button" id="ingresar" value="Ingresar">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+        </article>
+
+    </section>
+
+    <footer>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="https://es-la.facebook.com/">Facebook</a></li>
+                <li class="page-item"><a class="page-link" href="https://www.instagram.com/">Instagram</a></li>
+                <li class="page-item"><a class="page-link" href="contacto.html">Contactanos</a></li>
+                <li class="page-item"><a class="page-link" href="adidas.html">Palas</a></li>
+                <li class="page-item"><a class="page-link" href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+
+    </footer>
